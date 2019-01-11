@@ -1,5 +1,7 @@
 {
   "name": "ionic-testapp-cicd",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

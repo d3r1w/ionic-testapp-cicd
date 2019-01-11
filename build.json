@@ -1,0 +1,22 @@
+{
+  "ios": {
+    "debug": {
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ],
+      "codeSignIdentity": "iPhone Development",
+      "provisioningProfile": "dev-ionic-test-app-cicd",
+      "developmentTeam": "3GQL85KUB7",
+      "packageType": "development"
+    },
+    "release": {
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ],
+      "codeSignIdentity": "iPhone Distribution",
+      "provisioningProfile": "prod-mas-ionic-test-app-cicd",
+      "developmentTeam": "3GQL85KUB7",
+      "packageType": "app-store"
+    }
+  }
+}
